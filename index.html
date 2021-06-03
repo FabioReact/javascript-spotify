@@ -5,28 +5,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Spotify Playlist Manager</title>
+	<script src="script.js" defer></script>
 </head>
 <body>
+	<button id="connect-spotify">Connect to Spotify</button>
 	<section>
 		<label for="search">Rechercher</label>
 		<input type="text" id="search">
-		<button>Rechercher</button>
+		<button id="search-button">Rechercher</button>
 	</section>
-	<section>
+	<section id="result-section">
 		<h2>Résultats</h2>
 		<ul>
-			<li>Time is running out - Muse <button>Ajouter</button></li>
-			<li>Time is running out - Muse <button>Ajouter</button></li>
-			<li>Time is running out - Muse <button>Ajouter</button></li>
-			<li>Time is running out - Muse <button>Ajouter</button></li>
-			<li>Time is running out - Muse <button>Ajouter</button></li>
-			<li>Uprising - Muse <button>Ajouter</button></li>
+			<!-- <li>Time is running out - Muse <button data-id="1" data-song="Time is running out" data-artist="Muse">Ajouter</button></li>
+			<li>Uprising - Muse <button data-id="2" data-song="Uprising" data-artist="Muse">Ajouter</button></li> -->
 		</ul>
 	</section>
-	<section>
+	<section id="playlist-section">
 		<h2>Playlist</h2>
 		<ul>
-			<li>ACDC <button>Supprimer</button></li>
+			<!-- <li>ACDC - Highway to hell <button>Supprimer</button></li> -->
 		</ul>
 	</section>
 	<section>
